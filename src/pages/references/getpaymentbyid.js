@@ -122,7 +122,7 @@ const ReferencesGetPaymentByIdPage = () => {
                 <div className="api-body-code">
                 <div className = 'api-content'>
                     <div className = 'api-heading'>
-                       Get Payment for Orders
+                       Get Payment by ID
                     </div>
                     <div className = 'api-subheading'>
                         <GET/> <span style = {{paddingLeft: '5px'}}>https://sandbox.cashfree.com/pg/orders/{`${`{order_id}`}`}/payments/{`${`{cf_payement_id}`}`}</span>

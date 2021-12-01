@@ -396,9 +396,9 @@ const ReferencesCreateOrderPage = () => {
                                 <FontAwesomeIcon icon = {faArrowLeft} /> Endpoints
                             </span>
                             </Link>
-                            <Link to = '/references/getpaymentsfororder'>
+                            <Link to = '/references/getOrder'>
                             <span className = 'api-footer-next'>
-                                Get Payments for Order <FontAwesomeIcon icon = {faArrowRight} />
+                                Get Order <FontAwesomeIcon icon = {faArrowRight} />
                             </span>
                             </Link>
                         </div>
